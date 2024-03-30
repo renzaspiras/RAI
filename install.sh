@@ -6,10 +6,4 @@ wget  wget https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/aarch64/alpine-v
 mv *.img ./kvm/
 mv *.iso ./kvm/os.iso
 
-qemu-system-aarch64 -machine virt,accel=kvm -cpu cortex-a53 -m 1024 \
-  -drive if=pflash,format=raw,file=$PREFIX/share/qemu/edk2-aarch64-code.fd,readonly \
-  -drive file=./kvm/alpine.img,format=raw \
-  -device virtio-net-pci,netdev=n1 \
-  -netdev user,id=n1,hostfwd=tcp::2222-:22 \
-  -cdrom ./kvm/os.iso \
-  -nographic
+qemu-system-aarch64 -M virt -cpu cortex-a57 -m 1024 -drive format=raw,file=alpine.img -cdrom os.iso
