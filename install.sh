@@ -1,5 +1,5 @@
 mkdir kvm
-pacman -S qemu qemu-utils qemu-common qemu-system-x86_64-headless --noconfirm
+pacman -S qemu-base --noconfirm
 qemu-img create -f qcow2 alpine.img 5G
 wget  wget http://dl-cdn.alpinelinux.org/alpine/v3.12/releases/x86_64/alpine-virt-3.12.3-x86_64.iso
 
