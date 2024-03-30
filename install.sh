@@ -6,4 +6,4 @@ wget  wget https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/aarch64/alpine-v
 mv *.img ./kvm/
 mv *.iso ./kvm/os.iso
 
-qemu-system-aarch64 -M virt -cpu cortex-a57 -m 1024 -drive format=raw,file=alpine.img -cdrom os.iso
+qemu-system-aarch64 -M virt -cpu cortex-a57 -m 1024 -drive format=raw,file=./kvm/alpine.img -cdrom ./kvm/os.iso
