@@ -1,7 +1,7 @@
 mkdir kvm
 pacman -S qemu-base --noconfirm
 qemu-img create -f qcow2 alpine.img 5G
-wget  wget https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/aarch64/alpine-standard-3.19.1-aarch64.iso
+wget  wget https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/aarch64/alpine-virt-3.19.1-aarch64.iso
 
 mv *.img ./kvm/
 mv *.iso ./kvm/os.iso
