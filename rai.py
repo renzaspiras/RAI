@@ -23,6 +23,7 @@ def main():
             break
         response = get_response(user_input, conversations)
         print("Bot:", response)
+        print("\n")
 
 if __name__ == "__main__":
     main()
