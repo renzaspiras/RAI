@@ -55,6 +55,22 @@
         {
             "question": "Nice day",
             "response": []
+        },
+        {
+            "question": "Hello, I'm here",
+            "response": []
+        },
+        {
+            "question": "Welcome back",
+            "response": []
+        },
+        {
+            "question": "Gidday",
+            "response": []
+        },
+        {
+            "question": "How do you do?",
+            "response": []
         }
     ]
 }
