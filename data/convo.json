@@ -51,6 +51,10 @@
         {
             "question": "How are you?",
             "response": []
+        },
+        {
+            "question": "Nice day",
+            "response": []
         }
     ]
 }
