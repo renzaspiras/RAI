@@ -1,0 +1,56 @@
+{
+    "questions": [
+        {
+            "question": "Hello",
+            "response": []
+        },
+        {
+            "question": "Hey",
+            "response": []
+        },
+        {
+            "question": "Greetings",
+            "response": []
+        },
+        {
+            "question": "Hi",
+            "response": []
+        },
+        {
+            "question": "Morning",
+            "response": []
+        },
+        {
+            "question": "Afternoon",
+            "response": []
+        },
+        {
+            "question": "Evening",
+            "response": []
+        },
+        {
+            "question": "Goodday",
+            "response": []
+        },
+        {
+            "question": "Good morning",
+            "response": []
+        },
+        {
+            "question": "Good afternoon",
+            "response": []
+        },
+        {
+            "question": "Good evening",
+            "response": []
+        },
+        {
+            "question": "Hey there",
+            "response": []
+        },
+        {
+            "question": "How are you?",
+            "response": []
+        }
+    ]
+}
