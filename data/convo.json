@@ -1,79 +1,436 @@
 {
-    "questions": [
-        {
-            "question": "How are you doing today?",
-            "response": [
-                "Hello! Thank you for asking me how I am doing today. It's going well so far, and I hope the same goes for you too."
-            ]
-        },
-        {
-            "question": "What's up?",
-            "response": [
-                "Hello there! How are you doing today?"
-            ]
-        },
-        {
-            "question": "Hey!",
-            "response": [
-                "Hello!\nI am RAI.\nMy name is Resilient Artificial Intelligence (RAI).\nMy creator is CraftMatrix.org.\n"
-            ]
-        },
-        {
-            "question": "Morning/Afternoon/Evening",
-            "response": [
-                "Hello, my name is RAI and I am a Resilient Artificial Intelligence."
-            ]
-        },
-        {
-            "question": "Hello!",
-            "response": [
-                "Hello! May I help you with anything?",
-                "Hello! Thank you for asking me such a nice question. My name is RAI and I am an AI that was created by CraftMatrix.org to help with various tasks and services."
-            ]
-        },
-        {
-            "question": "hello there",
-            "response": [
-                "Hello there! I am RAI, a Resilient Artificial Intelligence developed by CraftMatrix.org to assist people in their daily lives.\n\nCraftMatrix created me to help people with various tasks such as answering questions, providing information, and making decisions. I am designed to be resilient and adaptable to any situation. As a result, I can provide accurate and reliable answers to your queries."
-            ]
-        },
-        {
-            "question": "hi there",
-            "response": [
-                "Hello there! It is my pleasure to assist you with your query. Please state the question again so that I can provide a more specific answer."
-            ]
-        },
-        {
-            "question": "howdy",
-            "response": [
-                "Hello! How can I help you?"
-            ]
-        },
-        {
-            "question": "Good morning",
-            "response": [
-                "Good morning!\nMy name is RAI.",
-                "Good morning! I am RAI and I was created by CraftMatrix.org to assist in the tasks of my owner. How may I be of assistance?"
-            ]
-        },
-        {
-            "question": "Hi",
-            "response": [
-                "Sure, no problem! How can I help?"
-            ]
-        },
-        {
-            "question": "How are you?",
-            "response": [
-                "As polite and simple as possible, I am doing well. Thank you for asking!",
-                "Great to meet you! It's been a busy day here at the CraftMatrix headquarters. How are you doing?"
-            ]
-        },
-        {
-            "question": "Welcome!",
-            "response": [
-                "Hello! Thank you for asking about me. I am a Resilient Artificial Intelligence, or simply known as RAI."
-            ]
-        }
-    ]
+  "questions": [
+    {
+      "question": "Good morning",
+      "response": []
+    },
+    {
+      "question": "Hi",
+      "response": []
+    },
+    {
+      "question": "Welcome",
+      "response": []
+    },
+    {
+      "question": "How are you doing?",
+      "response": []
+    },
+    {
+      "question": "How's it going?",
+      "response": []
+    },
+    {
+      "question": "How is your day so far?",
+      "response": []
+    },
+    {
+      "question": "Hi there,",
+      "response": []
+    },
+    {
+      "question": "Howdy",
+      "response": []
+    },
+    {
+      "question": "What's up?",
+      "response": []
+    },
+    {
+      "question": "Good morning/afternoon.",
+      "response": []
+    },
+    {
+      "question": "Who are you?",
+      "response": []
+    },
+    {
+      "question": "What is your name?",
+      "response": []
+    },
+    {
+      "question": "Hello",
+      "response": []
+    },
+    {
+      "question": "Hello there",
+      "response": []
+    },
+    {
+      "question": "Good morning!",
+      "response": []
+    },
+    {
+      "question": "How are you?",
+      "response": []
+    },
+    {
+      "question": "Have a nice day!",
+      "response": []
+    },
+    {
+      "question": "hello",
+      "response": []
+    },
+    {
+      "question": "good morning/afternoon/evening",
+      "response": []
+    },
+    {
+      "question": "how are you doing?",
+      "response": []
+    },
+    {
+      "question": "pleased to meet you",
+      "response": []
+    },
+    {
+      "question": "happy to see you",
+      "response": []
+    },
+    {
+      "question": "Good morning/afternoon/evening",
+      "response": []
+    },
+    {
+      "question": "Take care",
+      "response": []
+    },
+    {
+      "question": "See you later",
+      "response": []
+    },
+    {
+      "question": "Good morning/evening/afternoon,",
+      "response": []
+    },
+    {
+      "question": "How are you doing today?",
+      "response": []
+    },
+    {
+      "question": "What's up?, How's it going?",
+      "response": []
+    },
+    {
+      "question": "\"Greetings\"",
+      "response": []
+    },
+    {
+      "question": "\"Hello there\"",
+      "response": []
+    },
+    {
+      "question": "How is your day going?",
+      "response": []
+    },
+    {
+      "question": "Is everything alright so far?",
+      "response": []
+    },
+    {
+      "question": "Good Morning",
+      "response": []
+    },
+    {
+      "question": "How was your day?",
+      "response": []
+    },
+    {
+      "question": "How is the weather?",
+      "response": []
+    },
+    {
+      "question": "Greetings,",
+      "response": []
+    },
+    {
+      "question": "Hello,",
+      "response": []
+    },
+    {
+      "question": "Hey there,",
+      "response": []
+    },
+    {
+      "question": "Howdy,",
+      "response": []
+    },
+    {
+      "question": "Good morning/afternoon/evening.",
+      "response": []
+    },
+    {
+      "question": "\"Hello, \" + data1 + \",\"",
+      "response": []
+    },
+    {
+      "question": "\"Hi, \" + data2 + \",\"",
+      "response": []
+    },
+    {
+      "question": "hello there",
+      "response": []
+    },
+    {
+      "question": "hi there",
+      "response": []
+    },
+    {
+      "question": "howdy",
+      "response": []
+    },
+    {
+      "question": "welcome",
+      "response": []
+    },
+    {
+      "question": "How has your day been so far?",
+      "response": []
+    },
+    {
+      "question": "What's new in your world?",
+      "response": []
+    },
+    {
+      "question": "Have a great day!",
+      "response": []
+    },
+    {
+      "question": "Hey you!",
+      "response": []
+    },
+    {
+      "question": "\"Good Morning\"",
+      "response": []
+    },
+    {
+      "question": "\"How are you?\"",
+      "response": []
+    },
+    {
+      "question": "\"Please help me find the answer.\"",
+      "response": []
+    },
+    {
+      "question": "How old are you?",
+      "response": []
+    },
+    {
+      "question": "Where do you live?",
+      "response": []
+    },
+    {
+      "question": "When were you born?",
+      "response": []
+    },
+    {
+      "question": "How is it going?",
+      "response": []
+    },
+    {
+      "question": "location",
+      "response": []
+    },
+    {
+      "question": "good day",
+      "response": []
+    },
+    {
+      "question": "nice to meet you",
+      "response": []
+    },
+    {
+      "question": "good evening",
+      "response": []
+    },
+    {
+      "question": "Good day",
+      "response": []
+    },
+    {
+      "question": "Where do you come from?",
+      "response": []
+    },
+    {
+      "question": "What is your occupation?",
+      "response": []
+    },
+    {
+      "question": "How's your day going?",
+      "response": []
+    },
+    {
+      "question": "Hope you're having a great day!",
+      "response": []
+    },
+    {
+      "question": "Wishing you the best of days!",
+      "response": []
+    },
+    {
+      "question": "Have a blessed day!",
+      "response": []
+    },
+    {
+      "question": "When did you arrive?",
+      "response": []
+    },
+    {
+      "question": "what's up",
+      "response": []
+    },
+    {
+      "question": "hey there",
+      "response": []
+    },
+    {
+      "question": "Can I help you with anything?",
+      "response": []
+    },
+    {
+      "question": "Is there anything I can assist you with?",
+      "response": []
+    },
+    {
+      "question": "what's up?",
+      "response": []
+    },
+    {
+      "question": "good morning/day/evening/night/afternoon",
+      "response": []
+    },
+    {
+      "question": "Where do you come from?,",
+      "response": []
+    },
+    {
+      "question": "Why did you choose this job?",
+      "response": []
+    },
+    {
+      "question": "How long have you been working here?",
+      "response": []
+    },
+    {
+      "question": "Hi!",
+      "response": []
+    },
+    {
+      "question": "Good morning/afternoon/evening/day/night",
+      "response": []
+    },
+    {
+      "question": "Goodbye,",
+      "response": []
+    },
+    {
+      "question": "See you later!",
+      "response": []
+    },
+    {
+      "question": "Thank you for your time/attention/effort",
+      "response": []
+    },
+    {
+      "question": "Sorry to disturb",
+      "response": []
+    },
+    {
+      "question": "Excuse me/pardon me/I beg your pardon",
+      "response": []
+    },
+    {
+      "question": "Where are you from?",
+      "response": []
+    },
+    {
+      "question": "Who do you work for?",
+      "response": []
+    },
+    {
+      "question": "good day/morning/afternoon",
+      "response": []
+    },
+    {
+      "question": "how do you do?",
+      "response": []
+    },
+    {
+      "question": "\"Do you know any other languages besides English?\"",
+      "response": []
+    },
+    {
+      "question": "\"Can you tell me more about yourself?\"",
+      "response": []
+    },
+    {
+      "question": "\"Would you like to share something interesting about yourself?\"",
+      "response": []
+    },
+    {
+      "question": "hey!",
+      "response": []
+    },
+    {
+      "question": "I hope you are having a good day",
+      "response": []
+    },
+    {
+      "question": "How was your weekend?",
+      "response": []
+    },
+    {
+      "question": "Is everything alright?",
+      "response": []
+    },
+    {
+      "question": "How is life treating you so far?",
+      "response": []
+    },
+    {
+      "question": "What brings you to my world today?",
+      "response": []
+    },
+    {
+      "question": "Did you have a good morning?",
+      "response": []
+    },
+    {
+      "question": "Data1",
+      "response": []
+    },
+    {
+      "question": "Data2",
+      "response": []
+    },
+    {
+      "question": "how is your day going so far?",
+      "response": []
+    },
+    {
+      "question": "what's new in your life lately?",
+      "response": []
+    },
+    {
+      "question": "any exciting news or updates to share with me?",
+      "response": []
+    },
+    {
+      "question": "I hope all is well.",
+      "response": []
+    },
+    {
+      "question": "thanks for asking!",
+      "response": []
+    },
+    {
+      "question": "What do you do for living?",
+      "response": []
+    },
+    {
+      "question": "What interests you most in life?",
+      "response": []
+    }
+  ]
 }
